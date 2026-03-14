@@ -2,9 +2,9 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "22750400"))
-API_HASH = os.environ.get("API_HASH", "a0213f361ff290f021156c8dad30195b")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "34002235"))
+API_HASH = os.environ.get("API_HASH", "a20787c224809296fa50dcc3e9824b3f")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8708961027:AAFAyxoGbvaBv_d7MdMBVB93tWVIUoR1la8")
 
 CREDIT = os.environ.get("CREDIT", "𝐌 𝚨 𝐑 𝐂 𝚶")
 # MongoDB Configuration
@@ -13,8 +13,8 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://itsgoluAPI:jrMHSipT
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "5515754738"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "5515754738").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "8429501123"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "8429501123").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = ""
